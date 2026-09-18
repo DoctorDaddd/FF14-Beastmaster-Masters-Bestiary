@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#23282c">
+  <meta name="description" content="离线查看 FF14 魔兽资料，记录捕获进度，按编号、等级和地区整理收集目标。">
+  <title>魔兽图鉴 · FINAL FANTASY XIV</title>
+  <link rel="icon" href="assets/bestiary-icon.ico" sizes="16x16 24x24 32x32 48x48 64x64 128x128 256x256">
+  <link rel="icon" type="image/svg+xml" href="assets/bestiary-icon.svg" sizes="any">
+  <link rel="apple-touch-icon" href="assets/bestiary-icon.png">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script>
+  <script defer src="core.js"></script>
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <main class="window">
+    <header class="titlebar"><div><img class="window-emblem" src="assets/bestiary-icon.svg" alt="" width="36" height="36"><span class="title-cn">魔兽图鉴</span><span class="title-en">THE MASTER’S BESTIARY</span></div><button id="help" class="round-button" aria-label="使用说明">?</button></header>
+    <div class="workspace">
+      <aside class="sidebar">
+        <div class="section-label">收集记录 <span>COLLECTION</span></div>
+        <div class="progress-number"><strong id="done-count">0</strong><span>/ <span id="total-count">0</span></span></div>
+        <div class="progress-caption"><span>已捕获魔兽</span><span id="percentage">0%</span></div>
+        <progress id="progress" max="100" value="0" aria-label="捕获进度"></progress>
+        <div class="status-filters" aria-label="捕获状态">
+          <button class="status-button active" data-status="all" aria-pressed="true"><span>全部魔兽</span><span id="all-count" class="count">0</span></button>
+          <button class="status-button" data-status="remaining" aria-pressed="false"><span>尚未捕获</span><span id="remaining-count" class="count">0</span></button>
+          <button class="status-button" data-status="completed" aria-pressed="false"><span>已经捕获</span><span id="completed-count" class="count">0</span></button>
+        </div>
+        <div class="sidebar-divider"></div>
+        <label class="section-label" for="region">栖息地区 <span>REGION</span></label>
+        <select id="region"><option value="">全部地区</option></select>
+        <div class="sidebar-bottom"><span id="save-status" class="save-status">● 进度保存在本机</span></div>
+      </aside>
+      <section class="catalog" aria-label="魔兽列表">
+        <div class="toolbar"><div class="search-wrap"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索魔兽名称…" aria-label="搜索魔兽名称" autocomplete="off"></div><label class="sort-label" for="sort">排序</label><select id="sort"><option value="id">编号升序</option><option value="level-asc">等级升序</option><option value="level-desc">等级降序</option><option value="region">位置／地区分类</option></select></div>
+        <div id="storage-warning" class="notice warning" role="alert" hidden></div>
+        <div id="data-warning" class="notice" hidden></div>
+        <div class="results-line"><span id="result-count" role="status" aria-live="polite">共 0 种魔兽</span><span id="sort-hint">依图鉴编号排列</span><button id="hide-captured" class="hide-captured small-button" type="button" aria-pressed="false"><span aria-hidden="true">✓</span> 隐藏已捕获</button></div>
+        <div id="grid" class="card-grid" tabindex="0" aria-label="魔兽图鉴条目"></div>
+        <div id="empty" class="empty-state" hidden><span class="empty-mark" aria-hidden="true">◇</span><h2 id="empty-title">没有找到魔兽</h2><p id="empty-description">试试其他名称，或清除筛选条件。</p><button id="reset-filters">清除筛选</button></div>
+        <footer class="catalog-footer"><span>FINAL FANTASY XIV <span class="footer-dot">·</span> 本地图鉴</span><a id="source-link" href="https://ff14.huijiwiki.com/wiki/魔兽图鉴" target="_blank" rel="noopener noreferrer">资料：灰机 Wiki ↗</a></footer>
+      </section>
+    </div>
+  </main>
+  <dialog id="detail-dialog" class="detail-dialog" aria-labelledby="detail-title"><div class="dialog-titlebar"><span>魔兽详细资料</span><button class="round-button" data-close="detail-dialog" aria-label="关闭详情">×</button></div><div id="detail-content"></div></dialog>
+  <dialog id="help-dialog" aria-labelledby="help-title"><div class="dialog-titlebar"><span id="help-title">图鉴使用说明</span><button class="round-button" data-close="help-dialog" aria-label="关闭使用说明">×</button></div><div class="dialog-body help-body"><h3>记录与查找</h3><p>勾选卡片底部的“已捕获”记录收集进度，再次点击即可取消。点击图片或名称查看全部位置与地图红圈。使用“隐藏已捕获”按钮可只显示未捕获条目，再次点击恢复显示。地区内全部魔兽捕获完成后，栖息地区选项后会出现 ✅。</p><h3>地图红圈</h3><p>编号与上方坐标对应。虚线圈为 Wiki 提供的范围，实线小圈表示坐标点。副本可切换楼层；未提供捕获坐标的条目不绘制红圈。</p><h3>排序规则</h3><p>等级排序：等级 → 地区。地区分类：地区 → 等级升序。地区按中文名称排列；条件相同时按编号排列。</p><p>等级区间取最低等级，未知等级排在同一比较层级末尾。</p><h3>自动保存</h3><p>进度保存在当前浏览器中。文件移动、改名、更换浏览器或清理浏览器数据后，原进度可能无法读取。请在固定位置、同一浏览器的普通窗口中使用。</p><h3>资料说明</h3><p id="help-source"></p><p>本工具为玩家自用的非官方图鉴。游戏名称及素材归 SQUARE ENIX 所有，资料来源见各条目。缺失图片显示“暂无图片”。</p></div></dialog>
+  <noscript>请在浏览器中启用 JavaScript 后使用图鉴。</noscript>
+</body>
+</html>

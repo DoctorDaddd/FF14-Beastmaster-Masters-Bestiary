@@ -1,0 +1,486 @@
+{
+  "sourceUrl": "https://ff14.huijiwiki.com/wiki/魔兽图鉴",
+  "capturedAt": "2026-09-09",
+  "count": 50,
+  "notes": [
+    "库西：Wiki 条目尚未创建，暂无对应图片。",
+    "40号妖魂：Wiki 原条目名为幽灵，原表未填写等级及具体坐标；名称、7 级等级、地下位置与入口坐标由用户补充，图片保持原来源。"
+  ],
+  "images": [
+    {
+      "id": 1,
+      "name": "库西",
+      "image": null,
+      "reason": "图鉴链接为尚未创建的 Wiki 条目"
+    },
+    {
+      "id": 2,
+      "name": "松鼠",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%9D%BE%E9%BC%A0",
+      "articleTitle": "啮齿类",
+      "imageSourceUrl": "https://huiji-thumb.huijistatic.com/ff14/uploads/thumb/3/3a/%E6%9D%BE%E9%BC%A0.png/240px-%E6%9D%BE%E9%BC%A0.png",
+      "imageAlt": "",
+      "bytes": 1880
+    },
+    {
+      "id": 3,
+      "name": "迷途羊羔",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%BF%B7%E9%80%94%E7%BE%8A%E7%BE%94",
+      "articleTitle": "绵羊",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/5/5f/%E7%BB%B5%E7%BE%8A.png",
+      "imageAlt": "绵羊.png",
+      "bytes": 76242
+    },
+    {
+      "id": 4,
+      "name": "陆鱼",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E9%99%86%E9%B1%BC",
+      "articleTitle": "陆鱼",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/f/fd/%E9%99%86%E9%B1%BC.png",
+      "imageAlt": "陆鱼.png",
+      "bytes": 149180
+    },
+    {
+      "id": 5,
+      "name": "奥猴",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%A5%A5%E7%8C%B4",
+      "articleTitle": "奥猴",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/ca/%E5%A5%A5%E7%8C%B4.png",
+      "imageAlt": "奥猴.png",
+      "bytes": 57480
+    },
+    {
+      "id": 6,
+      "name": "渡渡鸟",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%B8%A1%E6%B8%A1%E9%B8%9F",
+      "articleTitle": "渡渡鸟",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/c9/%E6%B8%A1%E6%B8%A1%E9%B8%9F.png",
+      "imageAlt": "渡渡鸟.png",
+      "bytes": 127724
+    },
+    {
+      "id": 7,
+      "name": "矿爬虫",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%9F%BF%E7%88%AC%E8%99%AB",
+      "articleTitle": "矿爬虫",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/a/a9/%E7%9F%BF%E7%88%AC%E8%99%AB.png",
+      "imageAlt": "矿爬虫.png",
+      "bytes": 96200
+    },
+    {
+      "id": 8,
+      "name": "凶蛛蝎",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%87%B6%E8%9B%9B%E8%9D%8E",
+      "articleTitle": "蛛蝎",
+      "imageSourceUrl": "https://huiji-thumb.huijistatic.com/ff14/uploads/thumb/9/95/%E5%87%B6%E8%9B%9B%E8%9D%8E.png/146px-%E5%87%B6%E8%9B%9B%E8%9D%8E.png",
+      "imageAlt": "",
+      "bytes": 4876
+    },
+    {
+      "id": 9,
+      "name": "巨型陆蟹",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B7%A8%E5%9E%8B%E9%99%86%E8%9F%B9",
+      "articleTitle": "巨型陆蟹",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/2/27/%E5%B7%A8%E5%9E%8B%E9%99%86%E8%9F%B9.png",
+      "imageAlt": "巨型陆蟹.png",
+      "bytes": 128938
+    },
+    {
+      "id": 10,
+      "name": "胡蜂",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%83%A1%E8%9C%82",
+      "articleTitle": "胡蜂",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/3/3a/%E8%83%A1%E8%9C%82.png",
+      "imageAlt": "胡蜂.png",
+      "bytes": 73862
+    },
+    {
+      "id": 11,
+      "name": "兀鹫",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%85%80%E9%B9%AB",
+      "articleTitle": "兀鹫",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/c9/%E5%85%80%E9%B9%AB.png",
+      "imageAlt": "兀鹫.png",
+      "bytes": 77410
+    },
+    {
+      "id": 12,
+      "name": "蔓德拉",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%94%93%E5%BE%B7%E6%8B%89",
+      "articleTitle": "蔓德拉",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/9/91/%E8%94%93%E5%BE%B7%E6%8B%89.png",
+      "imageAlt": "蔓德拉.png",
+      "bytes": 19512
+    },
+    {
+      "id": 13,
+      "name": "死魂",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%AD%BB%E9%AD%82",
+      "articleTitle": "死魂",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/c0/%E6%AD%BB%E9%AD%82.png",
+      "imageAlt": "死魂.png",
+      "bytes": 128478
+    },
+    {
+      "id": 14,
+      "name": "跳蜥",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%B7%B3%E8%9C%A5",
+      "articleTitle": "跳蜥",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/1/15/%E8%B7%B3%E8%9C%A5.png",
+      "imageAlt": "跳蜥.png",
+      "bytes": 50144
+    },
+    {
+      "id": 15,
+      "name": "壳蟹",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%A3%B3%E8%9F%B9",
+      "articleTitle": "壳蟹",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/2/29/%E5%A3%B3%E8%9F%B9.png",
+      "imageAlt": "壳蟹.png",
+      "bytes": 104710
+    },
+    {
+      "id": 16,
+      "name": "螳螂",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%9E%B3%E8%9E%82",
+      "articleTitle": "螳螂",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/7/75/%E8%9E%B3%E8%9E%82.png",
+      "imageAlt": "螳螂.png",
+      "bytes": 154486
+    },
+    {
+      "id": 17,
+      "name": "粘液怪",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%B2%98%E6%B6%B2%E6%80%AA",
+      "articleTitle": "粘液怪",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/7/71/%E7%B2%98%E6%B6%B2%E6%80%AA.png",
+      "imageAlt": "粘液怪.png",
+      "bytes": 24204
+    },
+    {
+      "id": 18,
+      "name": "无头骑士",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%97%A0%E5%A4%B4%E9%AA%91%E5%A3%AB",
+      "articleTitle": "无头骑士",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/4/4e/%E6%97%A0%E5%A4%B4%E9%AA%91%E5%A3%AB.png",
+      "imageAlt": "无头骑士.png",
+      "bytes": 50642
+    },
+    {
+      "id": 19,
+      "name": "蝙蝠",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%9D%99%E8%9D%A0",
+      "articleTitle": "蝙蝠",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/c4/%E8%9D%99%E8%9D%A0.png",
+      "imageAlt": "蝙蝠.png",
+      "bytes": 26800
+    },
+    {
+      "id": 20,
+      "name": "陷阱草",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E9%99%B7%E9%98%B1%E8%8D%89",
+      "articleTitle": "陷阱草",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/1/1c/%E9%99%B7%E9%98%B1%E8%8D%89.png",
+      "imageAlt": "陷阱草.png",
+      "bytes": 52398
+    },
+    {
+      "id": 21,
+      "name": "席兹",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B8%AD%E5%85%B9",
+      "articleTitle": "席兹",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/3/34/%E5%B8%AD%E5%85%B9.png",
+      "imageAlt": "席兹.png",
+      "bytes": 42554
+    },
+    {
+      "id": 22,
+      "name": "仙人刺",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E4%BB%99%E4%BA%BA%E5%88%BA",
+      "articleTitle": "仙人刺",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/8/81/%E4%BB%99%E4%BA%BA%E5%88%BA.png",
+      "imageAlt": "仙人刺.png",
+      "bytes": 60010
+    },
+    {
+      "id": 23,
+      "name": "巨像",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B7%A8%E5%83%8F%E5%85%B5",
+      "articleTitle": "巨像兵",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/6/66/%E5%B7%A8%E5%83%8F%E5%85%B5.png",
+      "imageAlt": "巨像兵.png",
+      "bytes": 57888
+    },
+    {
+      "id": 24,
+      "name": "碧企鹅",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%A2%A7%E4%BC%81%E9%B9%85",
+      "articleTitle": "碧企鹅",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/c/ce/%E7%A2%A7%E4%BC%81%E9%B9%85.png",
+      "imageAlt": "碧企鹅.png",
+      "bytes": 32282
+    },
+    {
+      "id": 25,
+      "name": "精金龟",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%B2%BE%E9%87%91%E9%BE%9F",
+      "articleTitle": "精金龟",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/9/96/%E7%B2%BE%E9%87%91%E9%BE%9F.png",
+      "imageAlt": "精金龟.png",
+      "bytes": 112392
+    },
+    {
+      "id": 26,
+      "name": "大水牛",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%A4%A7%E6%B0%B4%E7%89%9B",
+      "articleTitle": "水牛",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/d/de/%E6%B0%B4%E7%89%9B.png",
+      "imageAlt": "水牛.png",
+      "bytes": 93398
+    },
+    {
+      "id": 27,
+      "name": "乌菊石",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E4%B9%8C%E8%8F%8A%E7%9F%B3",
+      "articleTitle": "乌菊石",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/3/39/%E4%B9%8C%E8%8F%8A%E7%9F%B3.png",
+      "imageAlt": "乌菊石.png",
+      "bytes": 161096
+    },
+    {
+      "id": 28,
+      "name": "巨虫",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B7%A8%E5%9E%8B%E8%A0%95%E8%99%AB",
+      "articleTitle": "巨型蠕虫",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/9/94/%E5%B7%A8%E5%9E%8B%E8%A0%95%E8%99%AB.png",
+      "imageAlt": "巨型蠕虫.png",
+      "bytes": 295986
+    },
+    {
+      "id": 29,
+      "name": "魔石精",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E9%AD%94%E7%9F%B3%E7%B2%BE",
+      "articleTitle": "魔石精",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/4/40/%E9%AD%94%E7%9F%B3%E7%B2%BE.png",
+      "imageAlt": "魔石精.png",
+      "bytes": 44200
+    },
+    {
+      "id": 30,
+      "name": "古菩猩猩",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%8F%A4%E8%8F%A9%E7%8C%A9%E7%8C%A9",
+      "articleTitle": "古菩猩猩",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/9/9d/%E5%8F%A4%E8%8F%A9%E7%8C%A9%E7%8C%A9.png",
+      "imageAlt": "古菩猩猩.png",
+      "bytes": 95628
+    },
+    {
+      "id": 31,
+      "name": "巨蟾蜍",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B7%A8%E8%9F%BE%E8%9C%8D",
+      "articleTitle": "巨蟾蜍",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/0/0a/%E5%B7%A8%E8%9F%BE%E8%9C%8D.png",
+      "imageAlt": "巨蟾蜍.png",
+      "bytes": 204850
+    },
+    {
+      "id": 32,
+      "name": "蜂鸟",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%9C%82%E9%B8%9F",
+      "articleTitle": "蜂鸟",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/0/01/%E8%9C%82%E9%B8%9F.png",
+      "imageAlt": "蜂鸟.png",
+      "bytes": 80516
+    },
+    {
+      "id": 33,
+      "name": "长须豹",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E9%95%BF%E9%A1%BB%E8%B1%B9",
+      "articleTitle": "长须豹",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/5/57/%E9%95%BF%E9%A1%BB%E8%B1%B9.png",
+      "imageAlt": "长须豹.png",
+      "bytes": 216410
+    },
+    {
+      "id": 34,
+      "name": "盗龙",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%9B%97%E9%BE%99",
+      "articleTitle": "盗龙",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/5/51/%E7%9B%97%E9%BE%99.png",
+      "imageAlt": "盗龙.png",
+      "bytes": 90398
+    },
+    {
+      "id": 35,
+      "name": "烈阳火蛟",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%83%88%E9%98%B3%E7%81%AB%E8%9B%9F",
+      "articleTitle": "火蛟",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/e/ee/%E7%81%AB%E8%9B%9F.png",
+      "imageAlt": "火蛟.png",
+      "bytes": 163228
+    },
+    {
+      "id": 36,
+      "name": "树精",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%A0%91%E7%B2%BE",
+      "articleTitle": "树精",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/5/5d/%E6%A0%91%E7%B2%BE.png",
+      "imageAlt": "树精.png",
+      "bytes": 585192
+    },
+    {
+      "id": 37,
+      "name": "灵蚁",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%81%B5%E8%9A%81",
+      "articleTitle": "灵蚁",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/7/76/%E7%81%B5%E8%9A%81.png",
+      "imageAlt": "灵蚁.png",
+      "bytes": 119836
+    },
+    {
+      "id": 38,
+      "name": "奇美拉",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%A5%87%E7%BE%8E%E6%8B%89",
+      "articleTitle": "奇美拉",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/4/43/%E5%A5%87%E7%BE%8E%E6%8B%89.png",
+      "imageAlt": "奇美拉.png",
+      "bytes": 46782
+    },
+    {
+      "id": 39,
+      "name": "魔界花",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E9%AD%94%E7%95%8C%E8%8A%B1",
+      "articleTitle": "魔界花",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/4/40/%E9%AD%94%E7%95%8C%E8%8A%B1.png",
+      "imageAlt": "魔界花.png",
+      "bytes": 319884
+    },
+    {
+      "id": 40,
+      "name": "幽灵",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%B9%BD%E7%81%B5",
+      "articleTitle": "幽灵",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/3/30/%E5%B9%BD%E7%81%B5.png",
+      "imageAlt": "幽灵.png",
+      "bytes": 101542
+    },
+    {
+      "id": 41,
+      "name": "蝾螈",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%9D%BE%E8%9E%88",
+      "articleTitle": "蝾螈",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/1/1d/%E8%9D%BE%E8%9E%88.png",
+      "imageAlt": "蝾螈.png",
+      "bytes": 142514
+    },
+    {
+      "id": 42,
+      "name": "眼镜蛇",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%9C%BC%E9%95%9C%E8%9B%87",
+      "articleTitle": "眼镜蛇",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/4/4c/%E7%9C%BC%E9%95%9C%E8%9B%87.png",
+      "imageAlt": "眼镜蛇.png",
+      "bytes": 98876
+    },
+    {
+      "id": 43,
+      "name": "海德拉",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E6%B5%B7%E5%BE%B7%E6%8B%89",
+      "articleTitle": "海德拉",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/5/57/%E6%B5%B7%E5%BE%B7%E6%8B%89.png",
+      "imageAlt": "海德拉.png",
+      "bytes": 275768
+    },
+    {
+      "id": 44,
+      "name": "灯心蜻蛉",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%81%AF%E5%BF%83%E8%9C%BB%E8%9B%89",
+      "articleTitle": "灯心蜻蛉",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/2/2a/%E7%81%AF%E5%BF%83%E8%9C%BB%E8%9B%89.png",
+      "imageAlt": "灯心蜻蛉.png",
+      "bytes": 16064
+    },
+    {
+      "id": 45,
+      "name": "腐坏古菩猩猩",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%85%90%E5%9D%8F%E5%8F%A4%E8%8F%A9%E7%8C%A9%E7%8C%A9",
+      "articleTitle": "腐坏古菩猩猩",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/7/71/%E8%85%90%E5%9D%8F%E5%8F%A4%E8%8F%A9%E7%8C%A9%E7%8C%A9.png",
+      "imageAlt": "腐坏古菩猩猩.png",
+      "bytes": 147820
+    },
+    {
+      "id": 46,
+      "name": "祖",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%A5%96",
+      "articleTitle": "祖",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/1/1a/%E7%A5%96.png",
+      "imageAlt": "祖.png",
+      "bytes": 188876
+    },
+    {
+      "id": 47,
+      "name": "寒冰巨像",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%8B%8F%E6%91%A9",
+      "articleTitle": "苏摩",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/7/7f/%E8%8B%8F%E6%91%A9.png",
+      "imageAlt": "苏摩.png",
+      "bytes": 291464
+    },
+    {
+      "id": 48,
+      "name": "真红龙虾",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E7%9C%9F%E7%BA%A2%E9%BE%99%E8%99%BE",
+      "articleTitle": "龙虾",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/d/d9/%E7%9C%9F%E7%BA%A2%E9%BE%99%E8%99%BE%E8%B5%84%E6%96%99%E7%AB%99.png",
+      "imageAlt": "真红龙虾资料站",
+      "bytes": 48842
+    },
+    {
+      "id": 49,
+      "name": "大王花",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E5%A4%A7%E7%8E%8B%E8%8A%B1",
+      "articleTitle": "大王花",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/9/9f/%E5%A4%A7%E7%8E%8B%E8%8A%B1.png",
+      "imageAlt": "大王花.png",
+      "bytes": 33146
+    },
+    {
+      "id": 50,
+      "name": "贝希摩斯",
+      "articleUrl": "https://ff14.huijiwiki.com/wiki/%E8%B4%9D%E5%B8%8C%E6%91%A9%E6%96%AF",
+      "articleTitle": "贝希摩斯",
+      "imageSourceUrl": "https://huiji-public.huijistatic.com/ff14/uploads/b/b2/%E8%B4%9D%E5%B8%8C%E6%91%A9%E6%96%AF.png",
+      "imageAlt": "贝希摩斯.png",
+      "bytes": 28772
+    }
+  ],
+  "userCorrections": [
+    {
+      "id": 40,
+      "source": "用户提供",
+      "name": "妖魂",
+      "wikiOriginalName": "幽灵",
+      "note": "等级为 7 级；名称、地下栖息位置及地下入口坐标由用户补充，保留原 Wiki 图像及来源链接。",
+      "locations": [
+        {
+          "map": "中拉诺西亚",
+          "x": 20.4,
+          "y": 18.9,
+          "kind": "field",
+          "note": "地下",
+          "radius": null
+        }
+      ],
+      "entrances": [
+        {
+          "map": "中拉诺西亚",
+          "x": 20.4,
+          "y": 20.3,
+          "label": "地下入口"
+        }
+      ],
+      "level": 7
+    }
+  ]
+}
